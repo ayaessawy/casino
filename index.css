@@ -1,0 +1,263 @@
+*{margin: 0;padding: 0;}
+h1{  font-family: "Anton";    font-weight: 600;}
+p{font-family: neue-haas-grotesk-text;}
+button{width: 70px;height: 50px;background-color: #EFAB23;border: 0;outline: 0;color: #2b2d42;
+  font-family: bold;}
+.row{margin-bottom:6%;}
+/*******************************************************/
+body{margin: 0;padding: 0;font-family: Saira, sans-serif;}
+
+.navbar{background-color: black!important;}
+.navbar img{display: block;width:110px;height:70px;margin-left: 20%;}
+.nav-link{color:#fff!important;font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  padding: 15px 22px !important;
+  text-transform: uppercase !important}
+.collapse{margin-left: 20%;}
+.nav-item .action{color: #E9B501!important;}
+
+.nav-link:hover{color: #E9B501!important;}
+.navbar-toggler{background-color: #fff !important;}
+.navbar button{background-color: #E9B501;width: 90px;height: 40px;color: #fff;border: 0;position: absolute;top: 36%;}
+.navbar .bttn{background-color: #fff;width: 90px;height: 40px;color: #E9B501;border: 0;position: absolute;top: 36%;left:79.5%;}
+
+@media (min-width: 992px){.navbar-expand-lg .navbar-nav .nav-link  {
+    padding-right: 1rem !important;
+    padding-left:1.5rem !important;
+}
+
+}
+@media (max-width: 992px) {.navbar img{margin-left: 0% !important}}
+/*****************************************************************************************/
+
+.banner-section1{width: 100%;height: 600px;position: relative;color: #fff;
+  background-image: url("https://template.labartisan.net/demos/jackpoo/jackpoo/assets/images/banner/bg-4.jpg");background-size: cover;
+float: left;}
+
+
+.banner-section1  h1{  padding: 8% 0 1% 4%;color: #fff;    text-shadow: 2px 2px 2px rgb(195 15 243 / 90%);
+ 
+  padding-bottom: 3px;
+  font-size: 4rem;text-transform: uppercase;
+  line-height: 72px;
+  font-weight: 700;font-family: Saira, sans-serif;
+}
+.banner-section1 p{font-family: "Oswald", sans-serif;;width: 50%;
+  color: #fff;padding-left: 5%;
+  font-size: 15px;
+  line-height: 28px;}
+
+.banner-section1 h2{    font-size: 1.5rem;color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;padding-left: 5%;}
+  .banner-section1 button{background-color: rgba(54, 52, 52, 0.933);width: 180px;height: 50px;color: #E9B501;border: 0;font-weight: 700;
+    margin-left: 4.5%;font-size:19px;}
+    .banner-section1 img{width: 200px;height: auto;display: inline-block;margin-left: 2%;margin-top:2%;border: 1px solid #fff;
+    }
+    .banner-section1 .image{margin-left: 4%;}
+   /***************************************************************************************************/
+.about-us{float: left;width: 100%;overflow: hidden;position: relative;padding-top: 3%;background-color: black;}
+
+.about-us h2 {text-align: left;padding-left: 4%; text-shadow: 2px 2px 2px rgb(195 15 243 / 90%);
+  font-size: 36px;
+  font-weight: bold;padding-top: 14%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff}
+.about-us h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 260px;
+  height: 1px;
+  background: #fff;
+  bottom: 1px;
+  left: calc(16% - 20px);
+}
+  .about-us h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(36% - 20px);}
+    .about-us  .pic,.about-us .content{width: 100%;overflow: hidden;}
+    .about-us  .box{width: 100%;overflow: hidden;float: left;}
+    .about-us .box .circle{float: left;background-color: #EFAB23;width:55px;height:55px;border-radius: 100%;margin-right: 2%;
+     display: flex;justify-content: center;align-items: center;}
+    .about-us .box .circle span {
+      display: inline-block;color: #fff;
+      font-weight: 700;
+      font-size: 26px;
+  }
+      .about-us p{width: 90%;font-size: 21px;color: #999999;padding-left: 2%;padding-top: 2.5%;}
+      .about-us  .box p{font-size: 19px;width: 100%;padding-top: 0%;}
+      .about-us  .box .pa{padding-left: 11%;}
+.about-us h5{color: #fff;
+  font-family: "Oswald", sans-serif;font-weight: 700;font-size: 1.1rem;margin-top: 2%;
+  text-transform: uppercase;}
+.about-us button{margin-top: 2%;font-weight: 700;width: 200px;;margin-left: 3.5%;display: block;float: left;}
+
+
+
+/********************************************************************************/
+.service-section{float: left;width: 100%;overflow: hidden;position: relative;background-color: black; }
+.service-section h2 {text-align: center;padding-left: 8%;padding-top: 4%;   
+  font-size: 36px;border-top: 1px solid rgba(255, 255, 255, 0.1); text-shadow: 2px 2px 2px rgb(195 15 243 / 90%);
+  font-weight: 600;
+ font-family: Arial,sans-serif;
+  margin-bottom:4%;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff}
+
+    .service-section p{font-family: Saira, sans-serif;width: 85%;text-align: center;padding-left: 18%;
+
+      color: #999999;
+      font-size: 18px;
+    margin-bottom: 4%;
+      line-height: 28px;}
+      .service-section .box{height: 350px;background-color:#252632;position: relative;margin-top: 9%;width: 100%;margin: auto
+        ;border-radius: 20px;}
+      .service-section .content h1{padding-top:3%;text-align: center ;font-size: 24px;color: #EFAB23;font-weight: 700;}
+      .service-section  .content h1:hover{color: #ffff;}
+      .service-section .content p{color: #999999;width: 100%;padding-left: 2%;padding-top: 2%;}
+      .service-section .pic,   .service-section .content{width: 100%;float: left;overflow: hidden}
+      .service-section .pic img{display: block;width: 38%;height: auto;margin:auto ;margin-top: 6%
+    ;}
+/**************************************************************************/
+.rules-section{background-color: #121213;width: 100%;float: left;overflow: hidden;}
+.rules-section .x{margin-top: 4%;margin-bottom: 8%;}
+
+.rules-section .pic,.rules-section  .content{width: 100%;overflow: hidden;}
+.rules-section .pic img{display: block;width: 100%;height: auto;margin-top: 6%;}
+.rules-section  h2 {text-align: left;padding-left: 4%; text-shadow: 2px 2px 2px rgb(195 15 243 / 90%);
+  font-size: 36px;
+  font-weight: bold;padding-top: 14%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff}
+  .rules-section  h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 260px;
+  height: 1px;
+  background: #fff;
+  bottom: 1px;
+  left: calc(16% - 20px);
+}
+.rules-section  h2::after{    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #EFAB23;
+    bottom: 0;
+    left: calc(36% - 20px);}
+    .rules-section p{width: 100%;font-size: 21px;color: #fff;padding-left: 2%;padding-top: 2.5%;}
+    .rules-section p span{padding-right: 1.5%;color: #E9B501}
+    .rules-section p:last-of-type{width: 100%;}
+    .rules-section  button{background-color: #E9B501;width: 200px;height: 60px;color: #fff;border: 0;font-weight: 600;margin-top: 4%;font-size: 18px;}
+/************************************************************************/
+
+  /****************************************************************************************/
+
+ /*************************************************************************************************/ 
+.client-say {width: 100%;float: left;height: 500px; background-color: black;}
+.client-say  h4{    font-size: 2.298em;font-weight: 600; line-height: 1.2; margin:auto;padding-top: 8%;color: #fff;
+}
+.client-say p{font-size: 1.15em;margin: auto;font-weight: 400;width: 60%;margin-top: 2%;color: #fff;}
+.client-say  hr{width: 20%;background-color: #f16700;margin: auto;margin-bottom: 3%;}
+.client-say .box{width: 100%;height: 280px;background-color: #252632;border-radius: 15px;margin-top: 5%}
+.client-say .pic, .client-say .content{width: 100%;float: left;height: 130px;}
+.client-say .checked {
+  color: orange;
+}
+
+.client-say h2 {text-align: center;text-shadow: 2px 2px 2px rgb(195 15 243 / 90%);
+  font-size: 36px;
+  font-weight: bold;padding-top:4.2%;
+  text-transform: uppercase;font-family: "Jost", sans-serif;
+  margin-bottom: 4%;
+  position: relative;
+  color: #fff}
+
+  .client-say .par{padding-bottom: 2%;font-size: 1rem;color: #fff;}
+  .client-say h6{color: #E9B501;padding-left: 4%;}
+  .client-say p{color: #99a1af;width: 85%;}
+  .client-say .pic .rate{width: 40%;float: left;margin-top: 11%;}
+  .client-say .pic .image{width: 70px;height: 70px;border-radius: 100%;background-image: url("https://thepixelcurve.com/html/appzing/image/profile-img-2.jpg");background-position: center;background-size: cover;margin-left: 5%;margin-top: 4%;float: left;}
+/***********************************************************************/
+/************************************************************************/
+
+/*************************************************************************/
+/**************************************************/
+.footer
+{width: 100%;float: left;overflow: hidden;    background-color:#121213;padding-top: 4%;
+
+  color: #888;
+  font-size: 16px;}
+.footer  h3 {text-align: left;
+  font-size: 20px;
+  color: #fff;font-weight: 500;margin-top: 8%;
+  margin-bottom: 30px;     font-family: "Poppins", sans-serif;  }
+  .footer p {text-align: left;padding-left: 3%;
+    font-family: "Source Serif Pro", serif; }
+.footer .form-control{
+  background-color: #fff;
+
+  border-radius: 30px;
+  height: 55px;
+  padding-left: 30px;
+  padding-right: 130px;
+  border: none;
+  color: #fff; }
+  .subscribe{position: relative;}
+.subscribe .btn-submit {
+        background: #E9B501;
+        height: 47px;
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); }
+        .footer li a {
+          color: #fff; }
+          .footer  .quick-info li {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 10px; }
+    .footer .secondpar{margin-left: 10%;    font-size: 15px;
+              font-style: italic;}
+        .z p{  font-style: italic;}
+    .gallery a {
+                display: block;
+                margin-bottom: 10px;
+                -webkit-transition: .3s all ease;
+                -o-transition: .3s all ease;
+                transition: .3s all ease; }
+    .media{border-top: 1px solid black ;margin-bottom: 2%;text-align: center;}
+      .footer .x{margin-bottom: 5%;}
+   .footer-menu li {margin-top: 2%;
+                  display: inline-block;}
+  .footer-menu li a {
+                    padding: 10px;
+                    display: inline-block;
+                    color: #fff; }
+  .site-logo img{width: 160px;height: 110px;margin-top: 3% !important;}
+    .img-fluid{max-width: 100% !important;}
+/*******************************************
+
+
+
